@@ -19,3 +19,27 @@
 2025-05-31 13:52:25.611 | INFO     | __main__:export_to_csv:74 - Created C:\Repos\datafun-05-sql\project_data\authors.csv
 2025-05-31 13:52:25.612 | INFO     | __main__:export_to_csv:74 - Created C:\Repos\datafun-05-sql\project_data\books.csv
 2025-05-31 13:52:25.612 | INFO     | __main__:main:97 - Data export completed successfully
+2025-05-31 14:54:25.359 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-05-31 14:54:25.359 | INFO     | __main__:main:41 - Starting database setup...
+2025-05-31 14:54:25.361 | INFO     | __main__:main:56 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-05-31 14:54:25.364 | INFO     | __main__:execute_sql_file:18 - Executed: C:\Repos\datafun-05-sql\sql_queries\query_aggregations.sql
+2025-05-31 14:54:25.364 | INFO     | __main__:execute_sql_file:18 - Executed: C:\Repos\datafun-05-sql\sql_queries\query_filter.sql
+2025-05-31 14:54:25.365 | INFO     | __main__:execute_sql_file:18 - Executed: C:\Repos\datafun-05-sql\sql_queries\query_group_by.sql
+2025-05-31 14:54:25.365 | INFO     | __main__:execute_sql_file:18 - Executed: C:\Repos\datafun-05-sql\sql_queries\query_joins.sql
+2025-05-31 14:54:25.365 | INFO     | __main__:execute_sql_file:18 - Executed: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql
+2025-05-31 14:54:25.365 | INFO     | __main__:main:61 - Database setup completed successfully.
+2025-05-31 14:54:25.366 | INFO     | __main__:main:66 - Database connection closed.
+2025-05-31 15:08:32.445 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-05-31 15:08:32.446 | INFO     | __main__:main:61 - Starting query processing...
+2025-05-31 15:08:32.446 | ERROR    | __main__:process_all_queries:36 - Queries folder not found: datafun-05-sql\sql_queries
+2025-05-31 15:08:32.446 | INFO     | __main__:main:71 - Query processing completed
+2025-05-31 15:21:30.528 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-05-31 15:21:30.529 | INFO     | __main__:main:52 - Starting query execution...
+2025-05-31 15:21:30.529 | INFO     | __main__:main:68 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-05-31 15:21:30.542 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_aggregations.sql → C:\Repos\datafun-05-sql\sql_output\query_aggregations.csv
+2025-05-31 15:21:30.545 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_filter.sql → C:\Repos\datafun-05-sql\sql_output\query_filter.csv
+2025-05-31 15:21:30.547 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_group_by.sql → C:\Repos\datafun-05-sql\sql_output\query_group_by.csv
+2025-05-31 15:21:30.549 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_joins.sql → C:\Repos\datafun-05-sql\sql_output\query_joins.csv
+2025-05-31 15:21:30.550 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql → C:\Repos\datafun-05-sql\sql_output\query_sorting.csv
+2025-05-31 15:21:30.551 | INFO     | __main__:main:73 - Query execution and saving completed successfully.
+2025-05-31 15:21:30.551 | INFO     | __main__:main:78 - Database connection closed.

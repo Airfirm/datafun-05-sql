@@ -3,6 +3,12 @@
 ## Author: Oluwafemi Salawu
 ### Project Repo Folder: datafun-05-sql
 
+# db03_queries.py
+Updated all my query files under sql_queries folder
+I created a python script that creates a new sql_queries folder if none existed. 
+Then run all the query files in the folder.
+Created a new sql_output folder to save the outputs of each queries in their respective csv files
+
 # Project Description:
 We'll use Python to create and manage the overall database. 
 We'll use SQL to interact with the relational data and tables. 
@@ -47,6 +53,7 @@ CREATE TABLE books (
     author_id TEXT,
     FOREIGN KEY (author_id) REFERENCES authors(author_id)
 );
+
 
 # Specification for Project 5 SQL Module
 
