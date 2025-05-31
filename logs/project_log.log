@@ -1,0 +1,21 @@
+2025-05-31 12:38:33.114 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-05-31 12:38:33.115 | INFO     | __main__:main:38 - Starting database setup...
+2025-05-31 12:38:33.116 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-05-31 12:38:33.132 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-05-31 12:38:33.142 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-05-31 12:38:33.152 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql
+2025-05-31 12:38:33.152 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-05-31 12:38:33.153 | INFO     | __main__:main:65 - Database connection closed.
+2025-05-31 12:38:51.614 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-05-31 12:38:51.614 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-05-31 12:38:51.615 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-05-31 12:38:51.616 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-05-31 12:38:51.629 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-05-31 12:38:51.629 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-05-31 12:38:51.629 | INFO     | __main__:main:63 - Database connection closed.
+2025-05-31 13:52:25.591 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-05-31 13:52:25.591 | INFO     | __main__:main:80 - Starting data export...
+2025-05-31 13:52:25.592 | INFO     | __main__:main:88 - Created project folder: C:\Repos\datafun-05-sql\project_data
+2025-05-31 13:52:25.611 | INFO     | __main__:export_to_csv:74 - Created C:\Repos\datafun-05-sql\project_data\authors.csv
+2025-05-31 13:52:25.612 | INFO     | __main__:export_to_csv:74 - Created C:\Repos\datafun-05-sql\project_data\books.csv
+2025-05-31 13:52:25.612 | INFO     | __main__:main:97 - Data export completed successfully
