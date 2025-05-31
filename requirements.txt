@@ -117,7 +117,7 @@ openpyxl
 
 # sqlite3 is not needed as an external package.
 # It is included in Python's standard library.
-# sqlite3
+# SQLite3
 
 # ======================================================
 # DATA PROCESSING & ANALYSIS
