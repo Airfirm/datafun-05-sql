@@ -127,3 +127,14 @@
 2025-06-02 17:34:45.911 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
 2025-06-02 17:34:45.912 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
 2025-06-02 17:34:45.912 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-02 17:40:03.561 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 17:40:03.561 | INFO     | __main__:main:52 - Starting query execution...
+2025-06-02 17:40:03.562 | INFO     | __main__:main:68 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-02 17:40:03.567 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_aggregations.sql → C:\Repos\datafun-05-sql\sql_output\query_aggregations.csv
+2025-06-02 17:40:03.569 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_filter.sql → C:\Repos\datafun-05-sql\sql_output\query_filter.csv
+2025-06-02 17:40:03.571 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_group_by.sql → C:\Repos\datafun-05-sql\sql_output\query_group_by.csv
+2025-06-02 17:40:03.574 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_joins.sql → C:\Repos\datafun-05-sql\sql_output\query_joins.csv
+2025-06-02 17:40:03.577 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_select_statement.sql → C:\Repos\datafun-05-sql\sql_output\query_select_statement.csv
+2025-06-02 17:40:03.579 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql → C:\Repos\datafun-05-sql\sql_output\query_sorting.csv
+2025-06-02 17:40:03.579 | INFO     | __main__:main:73 - Query execution and saving completed successfully.
+2025-06-02 17:40:03.580 | INFO     | __main__:main:78 - Database connection closed.
