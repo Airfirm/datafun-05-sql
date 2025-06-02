@@ -120,3 +120,10 @@
 2025-06-02 17:29:46.508 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql
 2025-06-02 17:29:46.509 | INFO     | __main__:main:60 - Database setup completed successfully.
 2025-06-02 17:29:46.509 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-02 17:34:45.896 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 17:34:45.896 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-02 17:34:45.897 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-02 17:34:45.904 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-02 17:34:45.911 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-02 17:34:45.912 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-02 17:34:45.912 | INFO     | __main__:main:63 - Database connection closed.

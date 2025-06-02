@@ -39,7 +39,7 @@ def main() -> None:
     ROOT_DIR = pathlib.Path(__file__).parent.resolve()
     SQL_FEATURES_FOLDER = ROOT_DIR.joinpath("sql_features")
     DATA_FOLDER = ROOT_DIR.joinpath("data")
-    DB_PATH = DATA_FOLDER.joinpath('db.sqlite')
+    DB_PATH = DATA_FOLDER.joinpath('project.sqlite3')
 
     # Ensure the database file exists before attempting to connect
     if not DB_PATH.exists():
