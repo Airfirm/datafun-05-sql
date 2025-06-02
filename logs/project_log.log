@@ -112,3 +112,11 @@
 2025-06-02 17:09:39.998 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql → C:\Repos\datafun-05-sql\sql_output\query_sorting.csv
 2025-06-02 17:09:39.998 | INFO     | __main__:main:73 - Query execution and saving completed successfully.
 2025-06-02 17:09:39.999 | INFO     | __main__:main:78 - Database connection closed.
+2025-06-02 17:29:46.479 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 17:29:46.479 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-02 17:29:46.481 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-02 17:29:46.486 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-02 17:29:46.499 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-02 17:29:46.508 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-02 17:29:46.509 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-02 17:29:46.509 | INFO     | __main__:main:65 - Database connection closed.

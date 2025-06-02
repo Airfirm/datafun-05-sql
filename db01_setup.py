@@ -41,7 +41,7 @@ def main() -> None:
     ROOT_DIR = pathlib.Path(__file__).parent.resolve()
     SQL_CREATE_FOLDER = ROOT_DIR.joinpath("sql_create")
     DATA_FOLDER = ROOT_DIR.joinpath("data")
-    DB_PATH = DATA_FOLDER.joinpath('db.sqlite')
+    DB_PATH = DATA_FOLDER.joinpath('project.sqlite3')
 
     # Ensure the data folder where we will put the db exists
     DATA_FOLDER.mkdir(exist_ok=True)
