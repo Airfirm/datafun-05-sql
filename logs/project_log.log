@@ -43,3 +43,72 @@
 2025-05-31 15:21:30.550 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql → C:\Repos\datafun-05-sql\sql_output\query_sorting.csv
 2025-05-31 15:21:30.551 | INFO     | __main__:main:73 - Query execution and saving completed successfully.
 2025-05-31 15:21:30.551 | INFO     | __main__:main:78 - Database connection closed.
+2025-06-02 16:43:23.777 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 16:43:23.777 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-02 16:43:23.779 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-02 16:43:23.801 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-02 16:43:23.820 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-02 16:43:23.827 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql: near "'1984'": syntax error
+2025-06-02 16:43:23.828 | ERROR    | __main__:main:62 - Error during database setup: near "'1984'": syntax error
+2025-06-02 16:43:23.828 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-02 16:45:26.363 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 16:45:26.363 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-02 16:45:26.365 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-02 16:45:26.378 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-02 16:45:26.387 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-02 16:45:26.393 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql: near "'1984'": syntax error
+2025-06-02 16:45:26.393 | ERROR    | __main__:main:62 - Error during database setup: near "'1984'": syntax error
+2025-06-02 16:45:26.394 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-02 16:51:32.863 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 16:51:32.863 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-02 16:51:32.865 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-02 16:51:32.877 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-02 16:51:32.885 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-02 16:51:32.890 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql: near "'1984'": syntax error
+2025-06-02 16:51:32.890 | ERROR    | __main__:main:62 - Error during database setup: near "'1984'": syntax error
+2025-06-02 16:51:32.890 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-02 16:51:49.377 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 16:51:49.377 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-02 16:51:49.379 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-02 16:51:49.394 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-02 16:51:49.404 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-02 16:51:49.418 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql: near "INSERT": syntax error
+2025-06-02 16:51:49.419 | ERROR    | __main__:main:62 - Error during database setup: near "INSERT": syntax error
+2025-06-02 16:51:49.419 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-02 16:54:10.395 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 16:54:10.396 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-02 16:54:10.398 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-02 16:54:10.411 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-02 16:54:10.422 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-02 16:54:10.445 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-02 16:54:10.445 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-02 16:54:10.446 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-02 16:56:28.754 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 16:56:28.754 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-02 16:56:28.755 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-02 16:56:28.772 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-02 16:56:28.783 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-02 16:56:28.784 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-02 16:56:28.784 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-02 17:07:28.407 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 17:07:28.407 | INFO     | __main__:main:52 - Starting query execution...
+2025-06-02 17:07:28.408 | INFO     | __main__:main:68 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-02 17:07:28.422 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_aggregations.sql → C:\Repos\datafun-05-sql\sql_output\query_aggregations.csv
+2025-06-02 17:07:28.424 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_filter.sql → C:\Repos\datafun-05-sql\sql_output\query_filter.csv
+2025-06-02 17:07:28.426 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_group_by.sql → C:\Repos\datafun-05-sql\sql_output\query_group_by.csv
+2025-06-02 17:07:28.427 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_joins.sql → C:\Repos\datafun-05-sql\sql_output\query_joins.csv
+2025-06-02 17:07:28.432 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_select_statement.sql → C:\Repos\datafun-05-sql\sql_output\query_select_statement.csv
+2025-06-02 17:07:28.435 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql → C:\Repos\datafun-05-sql\sql_output\query_sorting.csv
+2025-06-02 17:07:28.436 | INFO     | __main__:main:73 - Query execution and saving completed successfully.
+2025-06-02 17:07:28.436 | INFO     | __main__:main:78 - Database connection closed.
+2025-06-02 17:09:39.983 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-02 17:09:39.984 | INFO     | __main__:main:52 - Starting query execution...
+2025-06-02 17:09:39.985 | INFO     | __main__:main:68 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-02 17:09:39.989 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_aggregations.sql → C:\Repos\datafun-05-sql\sql_output\query_aggregations.csv
+2025-06-02 17:09:39.991 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_filter.sql → C:\Repos\datafun-05-sql\sql_output\query_filter.csv
+2025-06-02 17:09:39.992 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_group_by.sql → C:\Repos\datafun-05-sql\sql_output\query_group_by.csv
+2025-06-02 17:09:39.994 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_joins.sql → C:\Repos\datafun-05-sql\sql_output\query_joins.csv
+2025-06-02 17:09:39.995 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_select_statement.sql → C:\Repos\datafun-05-sql\sql_output\query_select_statement.csv
+2025-06-02 17:09:39.998 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql → C:\Repos\datafun-05-sql\sql_output\query_sorting.csv
+2025-06-02 17:09:39.998 | INFO     | __main__:main:73 - Query execution and saving completed successfully.
+2025-06-02 17:09:39.999 | INFO     | __main__:main:78 - Database connection closed.

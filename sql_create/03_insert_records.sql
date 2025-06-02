@@ -2,7 +2,20 @@
 INSERT INTO authors (author_id, name, birth_year, nationality) VALUES
     ('AUTHOR_001', 'J.K. Rowling', 1965, 'British'),
     ('AUTHOR_002', 'George Orwell', 1903, 'British'),
-    ('AUTHOR_003', 'Harper Lee', 1926, 'American');
+    ('AUTHOR_003', 'Nelson Algren', 1909, 'American'),
+    ('AUTHOR_004', 'William Faulkner', 1897, 'American'),
+    ('AUTHOR_005', 'James Jones', 1921, 'American'),
+    ('AUTHOR_006', 'Ralph Ellison', 1913, 'American'),
+    ('AUTHOR_007', 'Saul Bellow', 1915, 'Canadian-American'),
+    ('AUTHOR_008', 'John Cheever', 1912, 'American'),
+    ('AUTHOR_009', 'John O''Hara', 1905, 'American'),
+    ('AUTHOR_010', 'Wright Morris', 1910, 'American'),
+    ('AUTHOR_011', 'Wole Soyinka', 1934, 'Nigerian'),
+    ('AUTHOR_012', 'Chinua Achebe', 1930, 'Nigerian'),
+    ('AUTHOR_013', 'Philip Roth', 1933, 'American'),
+    ('AUTHOR_014', 'Conrad Richter', 1890, 'American'),
+    ('AUTHOR_015', 'Harper Lee', 1926, 'American'),
+    ('AUTHOR_016', 'Oluwafemi Salawu', 1985, 'Nigerian');
 
 -- Insert records into the books table
 -- And include foreign key references to the authors table
@@ -10,6 +23,29 @@ INSERT INTO authors (author_id, name, birth_year, nationality) VALUES
 INSERT INTO books (book_id, title, genre, publication_year, author_id) VALUES
     ('BOOK_001', 'Harry Potter and the Sorcerer''s Stone', 'Fantasy', 1997, 'AUTHOR_001'),
     ('BOOK_002', 'Harry Potter and the Chamber of Secrets', 'Fantasy', 1998, 'AUTHOR_001'),
-    ('BOOK_003', '1984', 'Dystopian', 1949, 'AUTHOR_002'),
+    ('BOOK_003', 'Nineteen Eighty-Four', 'Dystopian', 1949, 'AUTHOR_002'),
     ('BOOK_004', 'Animal Farm', 'Political Satire', 1945, 'AUTHOR_002'),
-    ('BOOK_005', 'To Kill a Mockingbird', 'Fiction', 1960, 'AUTHOR_003');
+    ('BOOK_005', 'Homage To Catalonia', 'Non-fiction', 1938, 'AUTHOR_002'),
+    ('BOOK_006', 'Politics and the English Language', 'Essay', 1946, 'AUTHOR_002'),
+    ('BOOK_007', 'Burmese Days', 'Fiction', 1934, 'AUTHOR_002'),
+    ('BOOK_008', 'Down and Out in Paris and London', 'Memoir', 1933, 'AUTHOR_002'),
+    ('BOOK_009', 'The Man With The Golden Arm', 'Fiction', 1949, 'AUTHOR_003'),
+    ('BOOK_010', 'A Walk on the Wild Side', 'Fiction', 1956, 'AUTHOR_003'),
+    ('BOOK_011', 'The Sound and the Fury', 'Fiction', 1929, 'AUTHOR_004'),
+    ('BOOK_012', 'As I Lay Dying', 'Fiction', 1930, 'AUTHOR_004'),
+    ('BOOK_013', 'From Here to Eternity', 'Historical Fiction', 1951, 'AUTHOR_005'),
+    ('BOOK_014', 'Invisible Man', 'Fiction', 1952, 'AUTHOR_006'),
+    ('BOOK_015', 'The Adventures of Augie March', 'Fiction', 1953, 'AUTHOR_007'),
+    ('BOOK_016', 'A Fable', 'Fiction', 1954, 'AUTHOR_004'),
+    ('BOOK_017', 'Ten North Frederick', 'Fiction', 1955, 'AUTHOR_009'),
+    ('BOOK_018', 'The Field of Vision', 'Fiction', 1956, 'AUTHOR_010'),
+    ('BOOK_019', 'The Man Died', 'Memoir', 1971, 'AUTHOR_011'),
+    ('BOOK_020', 'Alapata Apata', 'Fiction', 2011, 'AUTHOR_011'),
+    ('BOOK_021', 'Things Fall Apart', 'Fiction', 1958, 'AUTHOR_012'),
+    ('BOOK_022', 'Arrow of God', 'Fiction', 1964, 'AUTHOR_012'),
+    ('BOOK_023', 'The Wapshot Chronicle', 'Fiction', 1957, 'AUTHOR_008'),
+    ('BOOK_024', 'Goodbye, Columbus', 'Fiction', 1959, 'AUTHOR_013'),
+    ('BOOK_025', 'The Light in the Forest', 'Fiction', 1958, 'AUTHOR_014'),
+    ('BOOK_026', 'Juneteenth', 'Fiction', 1951, 'AUTHOR_005'),
+    ('BOOK_027', 'Data Analytics Engineer', 'Non-fiction', 2025, 'AUTHOR_016'),
+    ('BOOK_028', 'To Kill a Mockingbird', 'Fiction', 1960, 'AUTHOR_015');
