@@ -138,3 +138,117 @@
 2025-06-02 17:40:03.579 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql → C:\Repos\datafun-05-sql\sql_output\query_sorting.csv
 2025-06-02 17:40:03.579 | INFO     | __main__:main:73 - Query execution and saving completed successfully.
 2025-06-02 17:40:03.580 | INFO     | __main__:main:78 - Database connection closed.
+2025-06-06 15:26:14.088 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:26:14.088 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:26:14.091 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:26:14.097 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:26:14.098 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\update_records.sql: duplicate column name: author_age_at_publication
+2025-06-06 15:26:14.098 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_age_at_publication
+2025-06-06 15:26:14.098 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:26:54.581 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:26:54.581 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:26:54.582 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:26:54.583 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:26:54.600 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:26:54.600 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:26:54.600 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:31:58.683 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:31:58.684 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:31:58.684 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:31:58.685 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:31:58.686 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:31:58.686 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:31:58.687 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:32:36.322 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:32:36.322 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:32:36.323 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:32:36.336 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:32:36.337 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:32:36.337 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:32:36.337 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:33:55.558 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:33:55.559 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:33:55.559 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:33:55.572 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:33:55.573 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:33:55.574 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:33:55.574 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:36:57.367 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:36:57.367 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:36:57.367 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:36:57.386 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:36:57.387 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:36:57.387 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:36:57.388 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:38:36.180 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:38:36.181 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:38:36.181 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:38:36.184 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:38:36.185 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:38:36.185 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:38:36.185 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:39:58.867 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:39:58.868 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:39:58.869 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:39:58.878 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:39:58.879 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:39:58.879 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:39:58.880 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:42:53.783 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:42:53.783 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:42:53.784 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:42:53.785 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\delete_records.sql: near "(": syntax error
+2025-06-06 15:42:53.786 | ERROR    | __main__:main:60 - Error during feature queries execution: near "(": syntax error
+2025-06-06 15:42:53.786 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:44:11.618 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:44:11.619 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:44:11.619 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:44:11.621 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\delete_records.sql: near "(": syntax error
+2025-06-06 15:44:11.621 | ERROR    | __main__:main:60 - Error during feature queries execution: near "(": syntax error
+2025-06-06 15:44:11.622 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:44:49.832 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:44:49.833 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:44:49.833 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:44:49.845 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\delete_records.sql: near "(": syntax error
+2025-06-06 15:44:49.846 | ERROR    | __main__:main:60 - Error during feature queries execution: near "(": syntax error
+2025-06-06 15:44:49.846 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:49:12.412 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:49:12.412 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:49:12.413 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:49:12.427 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:49:12.428 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:49:12.428 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:49:12.428 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:50:16.042 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:50:16.043 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:50:16.044 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:50:16.067 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 15:50:16.067 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 15:50:16.067 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 15:50:16.068 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:59:31.102 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:59:31.102 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 15:59:31.102 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 15:59:31.116 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\delete_records.sql: near "WHERE": syntax error
+2025-06-06 15:59:31.116 | ERROR    | __main__:main:60 - Error during feature queries execution: near "WHERE": syntax error
+2025-06-06 15:59:31.116 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 16:01:25.000 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:01:25.000 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 16:01:25.001 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 16:01:25.011 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\delete_records.sql: near ";": syntax error
+2025-06-06 16:01:25.011 | ERROR    | __main__:main:60 - Error during feature queries execution: near ";": syntax error
+2025-06-06 16:01:25.011 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 16:01:51.640 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:01:51.640 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 16:01:51.641 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 16:01:51.663 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 16:01:51.664 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\update_records.sql: duplicate column name: author_age_at_publication
+2025-06-06 16:01:51.665 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_age_at_publication
+2025-06-06 16:01:51.665 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 16:02:23.288 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:02:23.289 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 16:02:23.289 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 16:02:23.290 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 16:02:23.296 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 16:02:23.296 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 16:02:23.296 | INFO     | __main__:main:63 - Database connection closed.
