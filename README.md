@@ -16,10 +16,23 @@ Then run all the query files in the folder.
 Created a new sql_output folder to save the outputs of each queries in their respective csv files
 
 # Screenshots:
+drop table if exist
 ![drop table if exist](image-1.png)
+create tables
 ![create tables](image-2.png)
+insert records
 ![insert records](image-3.png)
+tables created and records inserted
 ![tables created and records inserted](image.png)
+
+deleted record
+![deleted record](image-4.png)
+altered and updated records
+![altered and updated records](image-5.png)
+a record deleted and new column added to the books table
+![a record deleted and new column added to the books table](image-6.png)
+a record deleted from authors table
+![a record deleted from authors table](image-7.png)
 
 
 # Project Description:

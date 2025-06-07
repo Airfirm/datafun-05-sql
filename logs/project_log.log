@@ -260,3 +260,28 @@
 2025-06-06 20:55:26.227 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql
 2025-06-06 20:55:26.227 | INFO     | __main__:main:60 - Database setup completed successfully.
 2025-06-06 20:55:26.227 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 21:19:18.089 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 21:19:18.090 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 21:19:18.090 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 21:19:18.100 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\delete_records.sql: near "authors": syntax error
+2025-06-06 21:19:18.100 | ERROR    | __main__:main:60 - Error during feature queries execution: near "authors": syntax error
+2025-06-06 21:19:18.100 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 21:20:28.456 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 21:20:28.457 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 21:20:28.457 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 21:20:28.465 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\delete_records.sql: near "INNER": syntax error
+2025-06-06 21:20:28.465 | ERROR    | __main__:main:60 - Error during feature queries execution: near "INNER": syntax error
+2025-06-06 21:20:28.466 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 21:23:23.448 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 21:23:23.448 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 21:23:23.449 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 21:23:23.450 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\delete_records.sql: near ";": syntax error
+2025-06-06 21:23:23.450 | ERROR    | __main__:main:60 - Error during feature queries execution: near ";": syntax error
+2025-06-06 21:23:23.451 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 21:24:10.837 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 21:24:10.838 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 21:24:10.838 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-06 21:24:10.853 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-06 21:24:10.861 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\update_records.sql
+2025-06-06 21:24:10.862 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 21:24:10.862 | INFO     | __main__:main:63 - Database connection closed.
