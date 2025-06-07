@@ -42,7 +42,6 @@ group by
 ![](image-10.png)
 join
 ![jon](image-11.png)
-select statement
 !['select statement'](image-12.png)
 sorting / order by
 ![order by](image-13.png)
