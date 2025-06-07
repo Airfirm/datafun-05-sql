@@ -54,9 +54,9 @@ filter query response
 !['filter query response'](image-16.png)
 group by query response
 !['group by query response'](image-17.png)
-group by query response
-!['select statement query response'](image-18.png)
 select statement query response
+!['select statement query response'](image-18.png)
+order by query response
 !['order by query response'](image-19.png)
 
 
