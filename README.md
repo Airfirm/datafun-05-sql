@@ -3,18 +3,24 @@
 ## Author: Oluwafemi Salawu
 ### Project Repo Folder: datafun-05-sql
 
-# Descriptions:
-# db01_setup.py
+### db01_setup.py
 Created a db01_setup.py to run a script that drops if existed and creates a sqlite database, creates tables (authors and books) and insert records
 
-# db02_features.py
+### db02_features.py
 Created a db02_features.py file to delete records and also alter and update records in the table; e.g., add a new column (author's age at publication!)
 
-# db03_queries.py
+### db03_queries.py
 Updated all my query files under sql_queries folder
 I created a python script that creates a new sql_queries folder if none existed. 
 Then run all the query files in the folder.
 Created a new sql_output folder to save the outputs of each queries in their respective csv files
+
+# Screenshots:
+![drop table if exist](image-1.png)
+![create tables](image-2.png)
+![insert records](image-3.png)
+![tables created and records inserted](image.png)
+
 
 # Project Description:
 We'll use Python to create and manage the overall database. 
