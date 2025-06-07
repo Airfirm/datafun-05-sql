@@ -17,7 +17,7 @@ Created a new sql_output folder to save the outputs of each queries in their res
 
 # Screenshots:
 drop table if exist
-[](image-1.png)
+![](image-1.png)
 create tables
 ![create tables](image-2.png)
 insert records
