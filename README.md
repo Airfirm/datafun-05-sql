@@ -19,31 +19,31 @@ Created a new sql_output folder to save the outputs of each queries in their res
 drop table if exist
 ![](image-1.png)
 create tables
-![create tables](image-2.png)
+![](image-2.png)
 insert records
-![insert records](image-3.png)
+![](image-3.png)
 tables created and records inserted
-![tables created and records inserted](image.png)
+![](image.png)
 
 deleted record
-![deleted record](image-4.png)
+![](image-4.png)
 altered and updated records
-![altered and updated records](image-5.png)
+![](image-5.png)
 a record deleted and new column added to the books table
-![a record deleted and new column added to the books table](image-6.png)
+![](image-6.png)
 a record deleted from authors table
-![a record deleted from authors table](image-7.png)
+![](image-7.png)
 
 aggregation
-![aggregation](image-8.png)
+![](image-8.png)
 filter
-![filter](image-9.png)
+![](image-9.png)
 group by
-![group by](image-10.png)
+![](image-10.png)
 join
-![join](image-11.png)
+![jon](image-11.png)
 select statement
-![select statement](image-12.png)
+!['select statement'](image-12.png)
 sorting / order by
 ![order by](image-13.png)
 
