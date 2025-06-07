@@ -17,7 +17,7 @@ Created a new sql_output folder to save the outputs of each queries in their res
 
 # Screenshots:
 !['drop table if exist'](images/image-1.png)
-!['create tables'](image-2.png)
+!['create tables'](images/image-2.png)
 !['insert records'](image-3.png)
 !['tables created and records inserted'](image.png)
 !['deleted record'](image-4.png)
