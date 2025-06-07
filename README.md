@@ -16,48 +16,29 @@ Then run all the query files in the folder.
 Created a new sql_output folder to save the outputs of each queries in their respective csv files
 
 # Screenshots:
-drop table if exist
-![](image-1.png)
-create tables
-![](image-2.png)
-insert records
-![](image-3.png)
-tables created and records inserted
-![](image.png)
+!['drop table if exist'](README.md/image-1.png)
+!['create tables'](image-2.png)
+!['insert records'](image-3.png)
+!['tables created and records inserted'](image.png)
+!['deleted record'](image-4.png)
+!['altered and updated records'](image-5.png)
+!['a record deleted and new column added to the books table'](image-6.png)
+!['a record deleted from authors table'](image-7.png)
 
-deleted record
-![](image-4.png)
-altered and updated records
-![](image-5.png)
-a record deleted and new column added to the books table
-![](image-6.png)
-a record deleted from authors table
-![](image-7.png)
 
-aggregation
-![](image-8.png)
-filter
-![](image-9.png)
-group by
-![](image-10.png)
-join
-![jon](image-11.png)
+!['aggregation'](image-8.png)
+!['filter'](image-9.png)
+!['group by'](image-10.png)
+!['join'](image-11.png)
 !['select statement'](image-12.png)
-sorting / order by
-![order by](image-13.png)
+!['order by'](image-13.png)
 
-db03_queries.py run completed successfully
-![run successful](image-14.png)
-aggregation query response
-![aggregation](image-15.png)
-filter query response
-![filter](image-16.png)
-group by query response
-![group by](image-17.png)
-select statement
-![select statement](image-18.png)
-order by
-![order by](image-19.png)
+!['db03_queries.py run completed successfully'](image-14.png)
+!['aggregation query response'](image-15.png)
+!['filter query response'](image-16.png)
+!['group by query response'](image-17.png)
+!['select statement query response'](image-18.png)
+!['order by query response'](image-19.png)
 
 
 # Project Description:
