@@ -34,6 +34,32 @@ a record deleted and new column added to the books table
 a record deleted from authors table
 ![a record deleted from authors table](image-7.png)
 
+aggregation
+![aggregation](image-8.png)
+filter
+![filter](image-9.png)
+group by
+![group by](image-10.png)
+join
+![join](image-11.png)
+select statement
+![select statement](image-12.png)
+sorting / order by
+![order by](image-13.png)
+
+db03_queries.py run completed successfully
+![run successful](image-14.png)
+aggregation query response
+![aggregation](image-15.png)
+filter query response
+![filter](image-16.png)
+group by query response
+![group by](image-17.png)
+select statement
+![select statement](image-18.png)
+order by
+![order by](image-19.png)
+
 
 # Project Description:
 We'll use Python to create and manage the overall database. 
